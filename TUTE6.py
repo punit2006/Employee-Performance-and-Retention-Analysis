@@ -126,7 +126,6 @@ model.fit(X_train, y_train, epochs=50)
 import matplotlib.pyplot as plt
 import seaborn as sns'''''
 
-# Assuming 'Years at Company' and 'Performance Score' are in the dataset
 plt.figure(figsize=(10, 6))
 sns.lineplot(x='Years at Company', y='Performance Score', data=employee_data)
 plt.title('Performance Trends Over Years at Company')
